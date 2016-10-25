@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			font-family: "微软雅黑";
+		}
+		
+		body,html{
+			height: 100%;
+			width: 100%;
+			background-color: #ebebeb;
+		}
+		
+		.header{
+			background-image: url(img/fcb3879e14429d75833a461572e64.jpg);
+			background-repeat: no-repeat;
+			background-size: 100%;
+			padding-top: 62px;
+			padding-bottom: 62px;
+			text-align: center;
+			width: 100%;
+		}
+		
+		.header section img{		
+			max-width: 100%;	
+			outline: none;
+		}
+		
+		.header_after{
+			height: 0;
+			width: 100%;
+		}
+		
+	
+		
+		
+	    .nav{
+	    	
+	    	margin-bottom: 35px;
+			border-bottom: 1px solid #EBEBEB;
+	    	text-align: center;	
+	        background-color: #FFF;
+	    	width:100%;
+	    	height: 56px;           
+            line-height: 56px;
+	    	
+	    }
+	    
+	    .nav li{
+	    	display: inline-block;	   
+	    	line-height: 4em;
+	    	font-size: 14px;
+	    	color: #505050;
+	    	padding: 0 21px;
+	    	list-style: none;
+	    	
+	    }
+		
+		.nav_bottom{
+			border-bottom: 2px solid #DA6426;
+		}
+		
+		
+		
+		.main{
+			clear: both;
+			height: 100%;
+			width: 100%;
+			background-color: #EBEBEB;		
+			margin-top: 35px;
+			
+		}
+		
+		.page{
+			width: 84%;
+			height: 100%;
+			margin: 0 auto;
+		}
+		
+		.left{
+			margin: 0 15px;
+			text-align: center;	
+			float: left;
+			width: 60%;
+			background-color: #EBEBEB;
+			
+		}
+		
+		.left_child{
+			padding: 35px 35px 70px 35px;
+			
+			background-color: #fff;
+			margin-bottom:35px ;
+			font-size: 14px;
+		}
+		
+		.left header span{
+			font-weight: 400;
+			line-height: 1em;
+			font-size: 2.5em;
+		}
+		
+		.left section{
+			position: relative;
+			font-size: 16px;
+		}
+		
+		.left h6{
+			font-weight: normal;
+			font-size: 0.8em;
+			margin-top: 1.5em;
+			margin-bottom: 2.5em;
+		}
+		
+		.left p{
+			text-align: left;
+			margin-top: 0;
+			margin-bottom: 1.8em;
+		}
+		
+		.left_child section span{
+			
+			position: absolute;
+			left: 0;
+			font-size: 0.8em;
+			color: #FFF;
+			text-align: left;
+			padding: 7px 14px;
+			border-radius: 2px;
+			background-color: #e67e22;
+		}
+		
+		.left_child section span:hover{
+			background-color: #303030;
+		}
+		
+		.left_child img{
+			display: inline-block;
+			vertical-align: middle;
+			width: 100%;
+		}
+	
+		
+		.right{
+			font-size: 14px;
+		    margin: 0 15px;
+			float: left;
+			width: 33.3%;
+			background-color: #EBEBEB;
+		}
+		
+		.right .right_child {
+			background-color: #fff;
+			padding:21px 35px;
+			margin-bottom:35px ;
+		}
+		
+		.right_child header span{
+			margin-bottom: 20px;
+			font-size: 1.4em;
+			display: block;
+			border-bottom: 1px #EBEBEB solid;
+			line-height: 1.5em;
+		}
+		
+		.right_child section{
+			
+			font-size: 14px;
+		}
+		
+		
+		.right_child p{
+			font-size: 1em;
+			margin: 1em;
+		}
+		
+		.right_child section span{
+			display: block;
+			border-radius: 2px;
+			padding: 6px 12px;
+			vertical-align: middle;
+			font-size: 14px;
+			text-align: center;
+			background-color: #DA6426;
+			color: #FFFFFF;
+		}
+		
+		.right_child section span:hover{
+			background-color: #303030;
+		}
+		
+		.font-color{
+			color: #DA6426;
+		}
+		
+		@media only screen and (max-width: 990px) {
+			.left{
+				margin: 0 15px;
+				text-align: center;	
+				width: 100%;
+				background-color: #EBEBEB;
+				
+			}
+			.right{
+			font-size: 14px;
+		    margin: 0 15px;	
+		    width: 100%;	
+			background-color: #EBEBEB;
+			}
+			
+			.nav li{
+			display: none;
+			}
+			
+			.nav:hover{
+				height: 336px;
+				background-color: #FFF;
+			}
+			
+			.nav:hover li{
+				height: 56px;
+				display:block;
+				background-color: #FFF;
+				text-align: left;
+				width: 100%;
+				
+			}
+		}
+	</style>
+	</head>
+	<body>
+		<header class="header">
+			<section>
+				<img src="img/4f5566c1f7bc28b3f7ac1fada8abe.png"/>
+			</section>
+		</header>
+		
+		
+	
+	   	<nav class="nav">	
+				<li class="nav_bottom">首页</li>
+				<li>论坛</li>
+				<li>快捷手册</li>
+				<li>中文文档</li>
+				<li>下载</li>
+				<li>关于</li>	
+		</nav>
+		
+	
+	   	
+	   	<section class="main"> 
+	   		<div class="page">
+	   			
+	   		<div class="left">
+	   			<div class="left_child">
+	   			<header>
+	   				<span>Node.js v4 LTS 成为 Ghost 推荐版本</span>
+	   				
+	   			</header>
+	   			<section>
+	   				<h6>作者：王赛·2016年7月26日 </h6>
+	   				<p>从这周起，我们将 Ghost 推荐 Node.js 版本升级为 Node.js v4 LTS。 我们这样做其实已经落后于计划了。然而，经过大量测试之后，我们确信 Ghost 可以在 Node.js v4 平台上流畅的运行并且内存消耗比原来也减少了。目前，Ghost(Pro) 上托</p>
+	   			    <span>阅读全文</span>
+	   			</section>
+	   				
+	   			</div>
+	   			
+	   			
+	   			<div class="left_child">
+	   			<header>
+	   				<span>Node.js v4 LTS 成为 Ghost 推荐版本</span>
+	   				
+	   			</header>
+	   			<section>
+	   				<h6>作者：王赛·2016年7月26日 </h6>
+	   				<p>从这周起，我们将 Ghost 推荐 Node.js 版本升级为 Node.js v4 LTS。 我们这样做其实已经落后于计划了。然而，经过大量测试之后，我们确信 Ghost 可以在 Node.js v4 平台上流畅的运行并且内存消耗比原来也减少了。目前，Ghost(Pro) 上托</p>
+	   			    <span>阅读全文</span>
+	   			</section>
+	   				
+	   			</div>
+	   			
+	   			<div class="left_child">
+	   			<header>
+	   				<span>Node.js v4 LTS 成为 Ghost 推荐版本</span>
+	   				
+	   			</header>
+	   			<section>
+	   				<h6>作者：王赛·2016年7月26日 </h6>
+	   				<img src="img/de1b2911072f5a4eff82abdb62632.png"/>
+	   				<p>从这周起，我们将 Ghost 推荐 Node.js 版本升级为 Node.js v4 LTS。 我们这样做其实已经落后于计划了。然而，经过大量测试之后，我们确信 Ghost 可以在 Node.js v4 平台上流畅的运行并且内存消耗比原来也减少了。目前，Ghost(Pro) 上托</p>
+	   			    <span>阅读全文</span>
+	   			</section>
+	   				
+	   			</div>
+	   			
+	   			<div class="left_child">
+	   			<header>
+	   				<span>Node.js v4 LTS 成为 Ghost 推荐版本</span>
+	   				
+	   			</header>
+	   			<section>
+	   				<h6>作者：王赛·2016年7月26日 </h6>
+	   				
+	   				<p>从这周起，我们将 Ghost 推荐 Node.js 版本升级为 Node.js v4 LTS。 我们这样做其实已经落后于计划了。然而，经过大量测试之后，我们确信 Ghost 可以在 Node.js v4 平台上流畅的运行并且内存消耗比原来也减少了。目前，Ghost(Pro) 上托</p>
+	   			    <span>阅读全文</span>
+	   			</section>
+	   				
+	   			</div>
+	   			
+	   		</div>
+	   		<div class="right">
+	   			<div class="right_child">
+	   				<header>
+	   					<span>社区</span>
+	   				</header>
+	   				<section>
+	   					<p>QQ群：277327792</p>
+	   					<p class="font-color">问答社区</p>
+	   					<p class="font-color">官方微博</p>
+	   				</section>
+	   			</div>
+	   			
+	   			<div class="right_child">
+	   				<header>
+	   					<span>下载Ghost</span>
+	   				</header>
+	   				<section>
+	   				
+	   					<span>Ghost 中文版 (0.7.4)</span>
+	   				</section>
+	   			</div>
+	   			
+	   			<div class="right_child">
+	   				<header>
+	   					<span>社区</span>
+	   				</header>
+	   				<section>
+	   					<p>下载Ghost</p>
+	   					<span>Ghost 中文版 (0.7.4)</span>
+	   				</section>
+	   			</div>
+	   		</div>
+	   		</div>
+	   		
+	   	</section>
+	   	
+	   	
+	   	<footer class="footer">
+	   		
+	   	</footer>
+	 
+			
+			
+	
+		
+	</body>
+</html>
